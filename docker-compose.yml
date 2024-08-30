@@ -1,0 +1,12 @@
+services:
+  file_scanner:
+    build: .
+    volumes:
+      - .:/app
+      - /PATH/TO/WATCH_DIRECTORY:/app/watch_directory
+      - /PATH/TO/OUTPUT_DIRECTORY:/app/output_directory
+    environment:
+      - WATCH_DIRECTORY=/app/watch_directory
+      - OUTPUT_DIRECTORY=/app/output_directory
+      - SCAN_URL=https://www.virustotal.com/api/v3/files
+      - API_KEY=your_api_key

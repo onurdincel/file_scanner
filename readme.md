@@ -24,8 +24,7 @@ Bu komut ile birlikte belirlenen dosya dizisi izlenmeye başlayacak ve tarama so
 - Dosya İzleme:\
     Eğer dosya izleme düzgün çalışmıyorsa:
   - Docker volümlerini ve bağlama noktalarını kontrol edin.
-  > [!TIP]
-  > `/PATH/TO/WATCH_DIRECTORY:/app/watch_directory` ve `/PATH/TO/WATCH_DIRECTORY:/app/watch_directory` kısımlarını kontrol ediniz.
+    > :warning: `/PATH/TO/WATCH_DIRECTORY:/app/watch_directory` ve `/PATH/TO/WATCH_DIRECTORY:/app/watch_directory` kısımlarını kontrol ediniz.
   - Api anahtarınızı kontrol ediniz.
   - Dosya ve dizinleri kontrol ediniz.
   - İzinleri kontrol ediniz.
